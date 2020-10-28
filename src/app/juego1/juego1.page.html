@@ -1,0 +1,44 @@
+
+
+<ion-content class="background">
+  
+  
+  <ion-slides pager="false" (ionSlideDidChange)="slideChanged($event)" [options]="{ allowTouchMove: false }">
+    
+    <ion-slide *ngFor="let c of sliders">
+        <div class="box">
+          <ion-grid>
+            <ion-row>
+              <ion-col>
+              <h1>{{ c.titulo}}</h1>
+              </ion-col>
+              <ion-col>
+                <ion-img src="/assets/imagenes/sonido.png" (click)="reproducir(c.audio)" class="botonSonido"></ion-img>
+              </ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col *ngFor="let i of c.imagen1">
+                <div >
+                <ion-img class="imagenes1" [src]="i.img" (click)="comprobar(i.id,i.correcto,c.pagina)"></ion-img>
+              </div>
+              </ion-col>
+            </ion-row>
+            
+          </ion-grid>     
+        </div>
+
+    </ion-slide>
+  
+
+
+  </ion-slides>
+
+  <!--
+  <ion-img src="/assets/imagenes/atras.png" (click)="prev()" class="botonA"></ion-img>
+  <ion-img src="/assets/imagenes/siguiente.png" (click)="next()" class="botonS"></ion-img>-->
+  <ion-img id="btnHome" src="/assets/imagenes/home.png" (click)="irHome()"></ion-img>
+  
+ 
+
+
+</ion-content>

@@ -1,0 +1,32 @@
+ion-content.background {
+    --background: url(/assets/imagenes/fondoJuego.png) 0 0/100% 100% no-repeat;
+}
+
+.tarjetas{
+    margin-top: 5%;
+}
+
+h1{
+    color: #ffffff;
+    font-size: 20px;
+    margin-left: 5%;
+    text-shadow: 2px 2px 0 #122135, 2px -2px 0 #122135, -2px 2px 0 #122135, -2px -2px 0 #122135, 2px 0px 0 #122135, 0px 2px 0 #122135, -2px 0px 0 #122135, 0px -2px 0 #122135, 4px 4px 3px rgba(58,58,58,0.72);
+}
+
+#btnHome{
+   
+    width: 23%;
+    height: auto;
+    position: absolute;
+    top:  75%;
+    left: 40%;
+}
+
+.btnSalir{
+    width: 10%;
+    height: auto;
+    position: absolute;
+    top:  5%;
+    left: 80%;
+
+}

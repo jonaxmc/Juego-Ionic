@@ -1,0 +1,102 @@
+/*ion-slide{
+    display: block;
+}*/
+
+h1{
+    color: #ffffff;
+    font-size: 20px;
+    text-shadow: 2px 2px 0 #122135, 2px -2px 0 #122135, -2px 2px 0 #122135, -2px -2px 0 #122135, 2px 0px 0 #122135, 0px 2px 0 #122135, -2px 0px 0 #122135, 0px -2px 0 #122135, 4px 4px 3px rgba(58,58,58,0.72);
+}
+
+ion-img{
+  width: 75%;
+  height: auto;
+  
+  //margin-right: 8%;
+}
+/*
+ion-content {
+    --overflow: hidden;
+}*/
+
+ion-row{
+    
+    padding-top: 0;
+    //padding-left: 5%;
+    
+  
+    
+}
+.columnaImagenes{
+   
+    margin-top: 3%;
+
+}
+.imagenes1{
+    
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-left: 13%;
+
+}
+
+
+
+.footer{
+    background-color: yellow;
+    height: 50px;
+
+}
+
+.atras{
+    margin-right: 50%;
+}
+.siguiente{
+    margin-left: 50%;
+}
+
+
+
+.botonA{
+    width: 10%;
+    height: auto;
+    position: absolute;
+    top:  75%;
+    left: 5%;
+    
+}
+.botonS{
+    width: 10%;
+    height: auto;
+    position: absolute;
+    top:  75%;
+    left: 84%;
+    
+}
+.botonSonido{
+    height: 90%;
+    width: auto;
+    position: absolute;;
+    //position: absolute;
+    //top: 2%;
+    //left: 50%;
+    
+}
+#btnHome{
+   
+    width: 11%;
+    height: auto;
+    position: absolute;
+    top:  75%;
+    left: 44%;
+}
+
+
+
+
+
+
+
+
+ 

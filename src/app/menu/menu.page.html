@@ -1,0 +1,30 @@
+
+
+<ion-content class="background">
+  
+  <h1>Elige un juego</h1>
+
+  <ion-grid>
+    <ion-row class="tarjetas">
+      <ion-col >
+        <ion-img src='/assets/imagenes/tarjetaAcierta.png' (click)="irJuego1()" ></ion-img>
+      </ion-col>
+      <ion-col class="tarjetasMenu">
+        <ion-img src='/assets/imagenes/tarjetaPreguntas.png' (click)="irJuego5()" ></ion-img>
+      </ion-col>
+
+      <ion-col>
+        <ion-img src='/assets/imagenes/tarjetaAdivina.png' (click)="irJuego2()"></ion-img>
+      </ion-col>
+
+      <ion-col>
+        <ion-img src='/assets/imagenes/tarjetaRompecabezas.png' (click)="irMenu2()"></ion-img>
+      </ion-col>
+
+    </ion-row>
+  </ion-grid>
+
+  <ion-img id="btnHome" src="/assets/imagenes/integrantes.png" (click)="integrantes()"></ion-img>
+  <ion-img class="btnSalir" src="/assets/imagenes/salir2.png" (click)="salir()"></ion-img>
+
+</ion-content>

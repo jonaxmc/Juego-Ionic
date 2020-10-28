@@ -1,0 +1,16 @@
+
+<ion-content class="background">
+  <h1>Elige una imagen:</h1>
+
+  <ion-grid>
+    <ion-row class="tarjetas">
+      <ion-col class="tarjetasMenu" *ngFor="let c of imagenes">
+        <ion-img [src]="c.img" (click)="elegirImagen(c.img)" ></ion-img>
+      </ion-col>
+
+
+    </ion-row>
+  </ion-grid>
+  <ion-img id="btnHome" src="/assets/imagenes/home.png" (click)="irHome()"></ion-img>
+
+</ion-content>

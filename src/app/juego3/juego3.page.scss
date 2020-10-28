@@ -1,0 +1,149 @@
+/*.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: aqua;
+  }*/
+  
+  .container{
+    position: absolute;
+    top: 3%;
+  }
+  .picture {
+    display: flex;
+    flex-wrap: wrap;
+    width: 282px;
+    height: 282px;
+
+    margin-top: 5%;
+    //background-color: #ffffff;
+
+  }
+  
+  .dropArea {
+    
+    width: 140px;
+    height: 140px;
+    border: 1px dashed grey;
+    cursor: default;
+    margin-left: 0px;
+    padding: 0px;
+    
+    
+    
+    
+  }
+  
+  .completed {
+    border: 1px solid black;
+  }
+  
+  .completed .dropArea {
+    border-width: 0px;
+    
+  }
+  
+  .item.dx-draggable-dragging {
+   
+    z-index: 2;
+  }
+  
+  .items {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  
+    
+  }
+  .botones{
+    //background-color: aqua;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+
+  .botonVer{
+    position: absolute;
+    width: 70%;
+    height: auto;
+    top: 40%;
+  }
+  
+  #item2 {
+    background-position: right bottom;
+
+  }
+  
+  #item3 {
+    background-position: left bottom;
+
+  }
+  
+  #item4 {
+    background-position: right top;
+ 
+  }
+  #item5 {
+    background-position: left top;
+
+    
+  }
+  #item6 {
+    background-position: right top;
+  
+    
+  }
+  
+  .dropArea .item {
+    border-width: 0px;
+
+    
+  }
+  
+  .items .item {
+    margin: 5px;
+    //border-color: azure;
+    
+  }
+  
+  .item {
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    background-size: 140px 140px;
+    z-index: 1;
+    background-image: url("https://www.courant.com/resizer/D9qmAnzR8PY5q-GBdUBBVuNVUTs=/415x311/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/NTWCZKYTDJBI7CASRJ32F2RN6E.jpg");
+  }
+
+
+
+  #btnHome{
+   
+    width: 70%;
+    height: auto;
+    position: absolute;
+    //top:  75%;
+    //left: 44%;
+}
+
+.col1{
+  //background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.col2{
+  //background-color: burlywood;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.botonA{
+  width: 60%;
+  height: auto;
+
+  
+}
